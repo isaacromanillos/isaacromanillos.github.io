@@ -19,6 +19,7 @@ Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Full Stack**, **B
 
 ## 🎓 Formación Destacada
 
+* **Certificado Profesional de Ciberseguridad (Nivel 3)**
 * **CFGS Desarrollo de Aplicaciones Web (DAW)**
 * **CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)**
 * **CFGM Sistemas Microinformáticos y Redes (SMR)**
