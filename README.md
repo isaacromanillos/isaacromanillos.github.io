@@ -1,10 +1,10 @@
 # 💻 Portafolio Profesional — Isaac Romanillos Deza
 
-¡Hola! 👋 Bienvenido a mi repositorio web publicado en **GitHub Pages**.
+¡Hola 🌍! Bienvenido a mi repositorio web publicado en **GitHub Pages**.
 
-Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Full Stack**, **Backend**, **Bases de Datos** e **Infraestructura con Docker**.
+Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Backend**, **Entornos Docker**, **Lógica de Servidor** y **Ciberseguridad**.
 
-🔗 **Ver sitio web online:** [Portafolio](https://isaacromanillos.github.io/portafolio) 
+🔗 **Ver sitio web online:** [Portafolio](https://isaacromanillos.github.io/) 
 
 ---
 
