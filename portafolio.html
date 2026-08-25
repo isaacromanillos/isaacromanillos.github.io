@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favIcon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Isaac RD - Portafolio</title>
+
+</head>
+
+<body>
+    <script src="scripts.js" defer></script>
+    <!-- NAVEGACION -->
+    <nav>
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-full-text">System Status: <strong style="color: #10b981;">OPERATIONAL</strong> | </span>
+            <span>Ping: <span id="ping-ms">14</span>ms</span>
+        </div>
+        <div class="logo">ISAAC ROMANILLOS</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- BANNER PRINCIPAL CON PARTICULAS ANIMADAS -->
+    <header class="hero">
+        <canvas id="canvas-banner"></canvas>
+        <div class="hero-content">
+            <h1>Isaac Romanillos Deza</h1>
+            <h2>Perfil orientado a <span class="typewriter" id="typewriter"></span></h2>
+            <p style="color: var(--text-muted);">Villanueva de la Serena, Badajoz</p>
+            <a href="#contacto" class="btn">Contactar</a>
+        </div>
+    </header>
+
+    <!-- PERFIL PROFESIONAL -->
+    <section id="perfil">
+        <h2 class="section-title">Perfil Profesional</h2>
+        <div class="card">
+            <p>Desarrollador Full Stack con especial orientación al desarrollo Backend y a la lógica de servidor.
+                Experiencia sólida en la implementación de patrones de arquitectura (MVC y MVVM), diseño e integración
+                de APIs REST, gestión de bases de datos SQL y NoSQL, e infraestructura con Docker. Además también cuento
+                con conocimientos prácticos en ciberseguridad, maquetación web y desarrollo de aplicaciones
+                multiplataforma.
+            </p>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA LABORAL -->
+    <section id="experiencia">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="card-grid">
+
+            <div class="card">
+                <h3>Técnico de Ciberseguridad (FCT)</h3>
+                <p><strong>FEVAL</strong></p>
+                <p class="date">Agosto 2026</p>
+                <ul>
+                    <li>Supervisión del tráfico de red y detección de anomalías.</li>
+                    <li>Configuración de directivas de seguridad y actualización de políticas de acceso en servidores.
+                    </li>
+                    <li>Ejecución de escaneos con herramientas de auditoría y aplicación de correcciones.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Programador Frontend y Backend (FCT)</h3>
+                <p><strong>ANT Aplicaciones</strong></p>
+                <p class="date">Abril 2022 - Junio 2022</p>
+                <ul>
+                    <li>Desarrollo y mantenimiento de funcionalidades en el área de frontend y backend.</li>
+                    <li>Colaboración en proyectos de software a medida y resolución de incidencias.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Ayudante Informático (FCT)</h3>
+                <p><strong>DDR Informática</strong></p>
+                <p class="date">Junio 2018</p>
+                <ul>
+                    <li>Soporte técnico, mantenimiento de hardware y atención a usuarios.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FORMACION ACADEMICA Y CERTIFICACIONES -->
+    <section id="formacion">
+        <h2 class="section-title">Formación y Certificaciones</h2>
+        <div class="card-grid">
+
+            <div class="card">
+                <h3>Certificado Profesional de Ciberseguridad (Nivel 3)</h3>
+                <p><strong>EXSERTEC</strong></p>
+                <p class="date">2026</p>
+                <ul>
+                    <li>Análisis de vulnerabilidades, auditoría de red, bastionado de sistemas y respuesta ante
+                        incidentes.</li>
+                    <li>Manejo de Wireshark, Nmap, Nessus.</li>
+                    <li>Aplicación de normativas de seguridad, RGPD e ISO 27001.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>CFGS Desarrollo de Aplicaciones Web (DAW)</h3>
+                <p><strong>I.E.S. Albarregas</strong></p>
+                <p class="date">2025 - 2027</p>
+                <ul>
+                    <li>Despliegue de aplicaciones y contenedorización con Docker.</li>
+                    <li>Diseño responsive y maquetación web avanzada con principios UI/UX.</li>
+                    <li>Programación del lado servidor en PHP y Python.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                <p><strong>I.E.S. Albarregas</strong></p>
+                <p class="date">2020 - 2022</p>
+                <ul>
+                    <li>Implementación de patrones de arquitectura (MVC y MVVM).</li>
+                    <li>Diseño, optimización y gestión de bases de datos relacionales (SQL) y no relacionales (NoSQL).
+                    </li>
+                    <li>Consumo e integración de APIs RESTful.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HABILIDADES TECNICAS E IDIOMAS -->
+    <section id="habilidades">
+        <h2 class="section-title">Habilidades Técnicas e Idiomas</h2>
+        <div class="skills-container">
+            <span class="skill-badge"><i class="devicon-java-plain colored"></i> Java</span>
+            <span class="skill-badge"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+            <span class="skill-badge"><i class="devicon-php-plain colored"></i> PHP</span>
+            <span class="skill-badge"><i class="devicon-python-plain colored"></i> Python</span>
+            <span class="skill-badge"><i class="devicon-html5-plain colored"></i> HTML5</span>
+            <span class="skill-badge"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+            <span class="skill-badge"><i class="devicon-docker-plain colored"></i> Docker</span>
+            <span class="skill-badge">
+                <img src="img/whiresharkIcon.png" class="custom-skill-icon" alt="Wireshark"> Wireshark
+            </span>
+            <span class="skill-badge">
+                <img src="img/nmap_icon.png" class="custom-skill-icon" alt="Nmap"> Nmap
+            </span>
+
+            <span class="skill-badge">
+                <img src="img/language_icon.png" class="custom-skill-icon" alt="Inglés"> Inglés (Nivel Medio)
+            </span>
+        </div>
+    </section>
+
+    <!--CONTACTO E INFORMACION ADDICCIONAL-->
+    <section id="contacto">
+        <h2 class="section-title">Contacto e Información Adicional</h2>
+        <div class="card-grid" style="align-items: start;">
+            <div class="card">
+                <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
+                    Puedes encontrarme en <a href="https://www.linkedin.com/in/isaacrd/" target="_blank">LinkedIn</a> y
+                    <a href="https://github.com/isaacromanillos" target="_blank">GitHub</a>, o
+                    enviarme un mensaje directo:
+                </p>
+                <!-- FORMULARIO -->
+                <form action="https://formsubmit.co/isaacromanillos+formulario-portafolio@gmail.com" method="POST"
+                    style="display: flex; flex-direction: column; gap: 1rem;">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <label>Nombre:</label>
+                    <input type="text" name="name" required
+                        style="padding: 0.8rem; background: #1f2937; border: 1px solid var(--border); color: #fff; border-radius: 5px;">
+
+                    <label>Tu Correo Electrónico:</label>
+                    <input type="email" name="email" required
+                        style="padding: 0.8rem; background: #1f2937; border: 1px solid var(--border); color: #fff; border-radius: 5px;">
+
+                    <input type="hidden" name="_subject" value="Mensaje desde el Portafolio Web de GitHub">
+                    
+                    <label>Mensaje:</label>
+                    <textarea name="message" rows="4" required
+                        style="padding: 0.8rem; background: #1f2937; border: 1px solid var(--border); color: #fff; border-radius: 5px; resize: vertical;"></textarea>
+
+                    <button type="submit" class="btn" style="cursor: pointer; border: none;">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h3>Disponibilidad y Movilidad</h3>
+                <ul>
+                    <li>Carnet de conducir tipo B y vehículo propio.</li>
+                    <li>Disponibilidad para viajar y movilidad geográfica.</li>
+                    <li>Incorporación inmediata.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer id="footer">
+        <p>&copy; 2026 Isaac Romanillos Deza. Todos los derechos reservados.</p>
+        <div class="security-badge">
+            <div class="sec-item">
+                <img src="img/padlock_icon.png" alt="seguridad" style="height: 1.8em; width: 1.8em;">
+                <strong>Data
+                    Integrity</strong>
+            </div>
+            <div class="sec-item">
+                <!-- EASTER EGG (32 chars != SHA-256) -->
+                <code>SHA-256: 8f4b23e1a09d945f8e0281c74291e0a7</code>
+            </div>
+            <div class="sec-item">
+                <span style="color: #10b981;">✓</span> Verified Build
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top" class="back-to-top-btn" title="Volver arriba">&#8593;</a>
+</body>
+
+</html>
