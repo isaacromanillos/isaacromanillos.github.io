@@ -1,14 +1,14 @@
-# 💻 Portafolio Profesional — Isaac Romanillos Deza
+# Portafolio Profesional — Isaac Romanillos Deza
 
 ¡Hola 🌍! Bienvenido a mi repositorio web publicado en **GitHub Pages**.
 
 Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Backend**, **Entornos Docker**, **Lógica de Servidor** y **Ciberseguridad**.
 
-🔗 **Ver sitio web online:** [Portafolio](https://isaacromanillos.github.io/) 
+**Ver sitio web online:** [Portafolio](https://isaacromanillos.github.io/) 
 
 ---
 
-## 🛠️ Tecnologías y Herramientas Destacadas
+## Tecnologías y Herramientas Destacadas
 
 * **Lenguajes & Backend:** PHP, Python, Java, C++, HTML5, XAML
 * **Bases de Datos:** SQL (MySQL) & NoSQL
@@ -17,7 +17,7 @@ Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Backend**, **Ento
 
 ---
 
-## 🎓 Formación Destacada
+## Formación Destacada
 
 * **Certificado Profesional de Ciberseguridad (Nivel 3)**
 * **CFGS Desarrollo de Aplicaciones Web (DAW)**
@@ -26,7 +26,7 @@ Aquí encontrarás mi perfil técnico enfocado en **Desarrollo Backend**, **Ento
 
 ---
 
-## 📩 Contacto
+## Contacto
 
 * **Email:** [isaacromanillos@gmail.com](mailto:isaacromanillos+contacto-github@gmail.com)
 * **Ubicación:** Villanueva de la Serena, Badajoz (España)
