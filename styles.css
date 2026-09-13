@@ -53,6 +53,8 @@ nav {
     font-weight: bold;
     letter-spacing: 1px;
     color: var(--primary);
+    white-space: nowrap;
+    margin: 0 1rem 0 1rem;
 }
 
 .nav-links {
@@ -188,7 +190,7 @@ section {
     background: var(--primary);
 }
 
-/* TARJETAS / CARDS */
+/* TARJETAS */
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -226,7 +228,7 @@ section {
     color: var(--text-muted);
 }
 
-/* BADGES HABILIDADES */
+/* HABILIDADES */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -273,7 +275,7 @@ footer {
 }
 
 /* RESPONSIVE PARA MOVILES */
-@media (max-width: 768px) {
+@media (max-width: 975px) {
     nav {
         flex-direction: row;
         justify-content: space-between;

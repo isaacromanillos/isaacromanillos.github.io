@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.remove('active');
         });
     });
+    
+    document.addEventListener('click', (e) => {
+    if (navLinks.classList.contains('active') && 
+        !navLinks.contains(e.target) && 
+        !mobileMenuBtn.contains(e.target)) {
+        navLinks.classList.remove('active');
+    }
+});
 
     // 2. ANIMACION DE MAQUINA DE ESCRIBIR EN EL BANNER
     const words = ["Desarrollo Backend", "Entornos Docker", "Lógica de Servidor", "Ciberseguridad"];
@@ -104,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function resizeCanvas() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-        initParticles(); // Ahora sí funciona porque Particle e initParticles ya existen
+        initParticles();
     }
 
     resizeCanvas();
