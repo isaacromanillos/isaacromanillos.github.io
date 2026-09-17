@@ -19,7 +19,7 @@
 body {
   background-color: var(--bg-main);
   color: var(--text);
-  cursor: url("img/cursor2.png"), auto;
+  cursor: url("img/cursor.png"), auto;
   line-height: 1.6;
   overflow-x: hidden;
   min-width: 450px;
